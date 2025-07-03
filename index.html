@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <title>Pra você 💖</title>
+</head>
+<body>
+
+  <img src="img/images__1_-removebg-preview.png" alt="Gato fofo" width="120">
+  
+  <h1>Oiii</h1>
+  <p>Sei que você não está se sentindo bem, então fiz essa pagininha só pra te lembrar o quanto você é especial. 💖</p>
+  
+  <button onclick="mostrarMensagem()">Clique aqui 💌</button>
+  
+  <p id="mensagem" style="display:none; font-weight: bold; color:#c1121f;"></p>
+  
+  <img id="imagemGatinho" src="img/-1851616.png" alt="Gatinho com rosa">
+
+  <script>
+    function mostrarMensagem() {
+      const msg = document.getElementById("mensagem");
+      const img = document.getElementById("imagemGatinho");
+      msg.textContent = "Você é a melhor parte do meu dia!💕";
+      msg.style.display = "block";
+      img.style.display = "block";
+    }
+  </script>
+
+</body>
+</html>
